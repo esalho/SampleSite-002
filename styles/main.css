@@ -1,0 +1,34 @@
+@import url(additional.css);
+:root {
+  --primary-color: #ffc857;
+  --primary-bg: #084c61;
+  --text-color: #57aab4;
+  --accent-color: #db3a34;
+  --main-font: Arial, Helvetica, sans-serif;
+  --main-width: 150vh;
+}
+body {
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  font-family: var(--main-font);
+}
+header {
+  width: var(--main-width);
+  margin: auto;
+  h1 {
+    color: var(--text-color);
+  }
+}
+nav {
+  width: var(--main-width);
+  margin: auto;
+}
+main {
+  width: var(--main-width);
+  margin: auto;
+}
+footer {
+  width: var(--main-width);
+  margin: auto;
+  text-align: center;
+}
